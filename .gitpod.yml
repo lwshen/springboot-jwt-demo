@@ -6,8 +6,8 @@
 image:
   file: .gitpod.dockerfile
 tasks:
+  - init: mysql -e "CREATE DATABASE ssj;" && mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';"
   - init: mvn install -DskipTests=false
-  - init: mysql -e "CREATE DATABASE my_db;"
 vscode:
   extensions:
     - redhat.java

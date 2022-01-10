@@ -1,5 +1,7 @@
 # springboot-jwt-demo
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lwshen/springboot-jwt-demo)
+
 ## 简介
 这是一个使用了springboot+springSecurity+jwt实现的基于token的权限管理的一个demo
 
